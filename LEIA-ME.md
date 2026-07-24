@@ -46,7 +46,7 @@ git init
 git add .
 git commit -m "Versão inicial do Otimizar Fedora Linux"
 git branch -M main
-git remote add origin https://github.com/renanrure-afk/otimizar-fedora.git
+git remote add origin https://github.com/renanrure-afk/OtimizarFedora.git
 git push -u origin main
 ```
 
@@ -76,7 +76,7 @@ Sem ela o app não faz nada. Guarde a saída do linter pra submissão.
    ```yaml
    sources:
      - type: git
-       url: https://github.com/renanrure-afk/otimizar-fedora.git
+       url: https://github.com/renanrure-afk/OtimizarFedora.git
        tag: v1.0.0
        commit: COLE_AQUI_O_HASH_DO_COMMIT_DA_TAG
    ```

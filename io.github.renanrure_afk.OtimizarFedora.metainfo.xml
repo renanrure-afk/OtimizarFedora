@@ -37,14 +37,14 @@
   <screenshots>
     <screenshot type="default">
       <!-- SUBSTITUIR: URL pública de um screenshot real do app (obrigatório no Flathub) -->
-      <image>https://raw.githubusercontent.com/renanrure-afk/otimizar-fedora/main/screenshots/principal.png</image>
+      <image>https://raw.githubusercontent.com/renanrure-afk/OtimizarFedora/main/screenshots/principal.png</image>
       <caption>Main window with maintenance actions</caption>
       <caption xml:lang="pt-BR">Janela principal com as ações de manutenção</caption>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://github.com/renanrure-afk/otimizar-fedora</url>
-  <url type="bugtracker">https://github.com/renanrure-afk/otimizar-fedora/issues</url>
+  <url type="homepage">https://github.com/renanrure-afk/OtimizarFedora</url>
+  <url type="bugtracker">https://github.com/renanrure-afk/OtimizarFedora/issues</url>
 
   <content_rating type="oars-1.1" />
 
