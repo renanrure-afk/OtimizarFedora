@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Otimizar Fedora Linux
+Name[pt_BR]=Otimizar Fedora Linux
+Comment=Update, clean and diagnose your Fedora system
+Comment[pt_BR]=Atualiza, limpa e diagnostica o sistema
+Exec=otimizar-fedora
+Icon=io.github.renanrure_afk.OtimizarFedora
+Terminal=false
+Categories=System;Utility;
+Keywords=maintenance;update;cleanup;fedora;manutencao;limpeza;

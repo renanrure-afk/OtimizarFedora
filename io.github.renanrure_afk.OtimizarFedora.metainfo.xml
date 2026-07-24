@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.renanrure_afk.OtimizarFedora</id>
+
+  <name>Otimizar Fedora Linux</name>
+  <summary>Update, clean and diagnose your Fedora system</summary>
+  <summary xml:lang="pt-BR">Atualize, limpe e diagnostique seu sistema Fedora</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <developer id="io.github.renanrure_afk">
+    <name>3R Serviços Digitais</name>
+  </developer>
+
+  <description>
+    <p>
+      One-click system maintenance for Fedora Linux. Update packages and
+      firmware, clean caches and old kernels, run SSD TRIM, and check
+      disk health and battery status. Authenticate once (fingerprint or
+      password) and run everything from a single window.
+    </p>
+    <p xml:lang="pt-BR">
+      Manutenção do sistema Fedora em um clique. Atualize pacotes e
+      firmware, limpe caches e kernels antigos, rode o TRIM do SSD e
+      verifique a saúde do disco e da bateria. Autentique uma vez
+      (digital ou senha) e execute tudo em uma única janela.
+    </p>
+    <p>
+      Note: this application executes maintenance commands (dnf, fwupdmgr,
+      fstrim) on the host system and is intended for Fedora Linux only.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.renanrure_afk.OtimizarFedora.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <!-- SUBSTITUIR: URL pública de um screenshot real do app (obrigatório no Flathub) -->
+      <image>https://raw.githubusercontent.com/renanrure-afk/otimizar-fedora/main/screenshots/principal.png</image>
+      <caption>Main window with maintenance actions</caption>
+      <caption xml:lang="pt-BR">Janela principal com as ações de manutenção</caption>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/renanrure-afk/otimizar-fedora</url>
+  <url type="bugtracker">https://github.com/renanrure-afk/otimizar-fedora/issues</url>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2026-07-23">
+      <description>
+        <p>Initial release.</p>
+        <p xml:lang="pt-BR">Primeira versão.</p>
+      </description>
+    </release>
+  </releases>
+
+  <categories>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">760</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+</component>

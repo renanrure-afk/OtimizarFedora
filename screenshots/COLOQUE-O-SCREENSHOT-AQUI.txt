@@ -1,0 +1,5 @@
+Tire um screenshot da janela principal do app rodando e salve aqui
+com o nome exato: principal.png
+
+Dica: abra o app, autentique, rode "Bateria e Espaço" (é rápido e
+enche o log com conteúdo real) e capture com Print Screen.
